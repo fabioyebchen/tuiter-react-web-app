@@ -1,0 +1,125 @@
+.wd-search-container-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .wd-search-container {
+    flex-grow: 1;
+
+  }
+  
+  .wd-search-query {
+    height: 35px;
+    width: 500px;
+    color:rgb(133, 133, 133);
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    border-color: transparent;
+    padding-left: 10px;
+    
+  }
+
+  .wd-search-query:focus {
+    border: 3px solid rgb(29, 161, 242);
+    outline: none;
+
+    
+  }
+  
+  .wd-gear-icon {
+    margin-left: 5px;
+
+  }
+
+.wd-container-tab-parent {
+    padding: 10px;
+    
+}
+
+.wd-horizontal-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .wd-horizontal-list li {
+    margin-right: 50px; 
+    color: rgb(133, 133, 133);
+  }
+
+  .wd-horizontal-list li.active {
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(29, 161, 242);
+    border-radius: 50px 50px 0 0;
+    
+  }
+
+.wd-container-picture-parent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.wd-container-picture-parent img {
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+
+.wd-container-picture-parent .wd-image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.wd-tuit-list {
+    list-style-type: none;
+    padding-inline-start: 10px;
+}
+
+.wd-tuit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 0px;
+  }
+
+  
+  
+  .wd-tuit {
+    flex-grow: 1;
+
+  }
+
+  .wd-tuit-more{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(133, 133, 133);
+  }
+
+  .wd-tuit-topic1 {
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(163, 163, 163);
+    margin-bottom: 3px;
+  }
+
+  .wd-tuit-topic2 {
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+    margin-bottom: 3px;
+  }
+
+  .wd-tuit-topic3{
+    font-size: medium;
+    color: rgb(163, 163, 163);
+    margin-bottom: 3px;
+  }

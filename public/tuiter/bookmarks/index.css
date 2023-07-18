@@ -1,0 +1,16 @@
+.container-header {
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    grid-gap: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    margin: 12px;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
