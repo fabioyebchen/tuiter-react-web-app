@@ -136,6 +136,7 @@ a {
 
 .list-group {
     margin-bottom: 10px !important;
+    margin-left: 0px;
 }
 
 .list-group-item active {
@@ -153,4 +154,70 @@ a {
 
 .third-column {
     background-color: black;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    background-image: url("https://nationalinterest.org/sites/default/files/main_images/SpaceXStarship_SpaceXFlickr.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+  }
+
+.tuits-container {
+    margin-top: 10px;
+}
+
+.text-tuit-1 {
+    text-align: left;
+}
+
+.text-tuit-2 {
+    text-align: left;
+}
+
+.text-tuit-3 {
+    text-align: left;
+}
+
+.text-tuit-1 span{
+    color: gray;
+    margin: 10px;
+}
+
+.text-tuit-2 span{
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.text-tuit-3 span{
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.text-tuit-2 .date{
+    color: gray;
+    font-weight: normal;
+}
+
+.row {
+    padding: 10px;
+}
+
+.col .btn {
+    width: auto;
+    margin-left: 5px;
 }
