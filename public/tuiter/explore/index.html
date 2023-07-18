@@ -34,25 +34,31 @@
     />
   </head>
   <body>
+    <div class="d-block d-sm-none fa-2x">XS</div>
+    <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+    <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+    <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+    <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+    <div class="d-none d-xxl-block fa-2x">XXL</div>
     <div class="container">
     <div class="container text-center">
         <div class="row">
           <div class="col-2">
 
             <ul class="list-group">
-                <li class="list-group-item"><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
-                <li class="list-group-item"><a href="/tuiter/explore/explore-css.html"><i class="fas fa-search"></i> Explore (CSS) </a></li>
-                <li class="list-group-item active" aria-current="true"><a href="/tuiter/explore/index.html"><i class="fas fa-search"></i> Explore (Bootstrap) </a></li>
-                <li class="list-group-item"><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
-                <li class="list-group-item"><a href="messages.html"><i class="fas fa-envelope"></i> Messages</a></li>
-                <li class="list-group-item"><a href="/tuiter/bookmarks/bookmarks-css.html"><i class="fas fa-bookmark"></i> Bookmarks (CSS)</a></li>
-                <li class="list-group-item"><a href="lists.html"><i class="fas fa-list"></i> Lists</a></li>
-                <li class="list-group-item"><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
-                <li class="list-group-item"><a href="more.html"><i class="fas fa-ellipsis-h"></i> More</a></li>
-                <li class="list-group-item"><a href="tuit.html"><i class="fab fa-twitter"></i> Tuit</a></li>
-                <li class="list-group-item"><a href="reply.html"><i class="fas fa-reply"></i> Reply</a></li>
+                <li class="list-group-item"><a href="home.html"><i class="fas fa-home"></i><span class="d-none d-xl-inline"> Home</span></a></li>
+                <li class="list-group-item"><a href="/tuiter/explore/explore-css.html"><i class="fas fa-search"></i><span class="d-none d-xl-inline"> Explore (CSS)</span> </a></li>
+                <li class="list-group-item active" aria-current="true"><a href="/tuiter/explore/index.html"><i class="fas fa-search"></i><span class="d-none d-xl-inline"> Explore (Bootstrap)</span></a></li>
+                <li class="list-group-item"><a href="notifications.html"><i class="fas fa-bell"></i><span class="d-none d-xl-inline"> Notifications</span></span> </a></li>
+                <li class="list-group-item"><a href="messages.html"><i class="fas fa-envelope"></i><span class="d-none d-xl-inline"> Messages</span></a></li>
+                <li class="list-group-item"><a href="/tuiter/bookmarks/bookmarks-css.html"><i class="fas fa-bookmark"></i><span class="d-none d-xl-inline"> Bookmarks (CSS)</span></a></li>
+                <li class="list-group-item"><a href="lists.html"><i class="fas fa-list"></i><span class="d-none d-xl-inline"> Lists</span></a></li>
+                <li class="list-group-item"><a href="profile.html"><i class="fas fa-user"></i><span class="d-none d-xl-inline"> Profile</span></a></li>
+                <li class="list-group-item"><a href="more.html"><i class="fas fa-ellipsis-h"></i><span class="d-none d-xl-inline"> More</span></a></li>
+                <li class="list-group-item"><a href="tuit.html"><i class="fab fa-twitter"></i><span class="d-none d-xl-inline"> Tuit</span></a></li>
+                <li class="list-group-item"><a href="reply.html"><i class="fas fa-reply"></i><span class="d-none d-xl-inline"> Reply</span></a></li>
               </ul>
-              <button type="button" class="btn btn-primary rounded-pill">   Tuit   </button>
+              <button type="button" class="btn btn-primary rounded-pill">Tuit</button>
           </div>
           <div class="col-6">
             <div class="mb-3">
@@ -146,7 +152,7 @@
             </div>
 
           </div>
-          <div class="col-4">
+          <div class="col-4 d-none d-xl-inline">
             <div class="follow-container">
                 <ul class="list-group">
                     <li class="list-group-item">
