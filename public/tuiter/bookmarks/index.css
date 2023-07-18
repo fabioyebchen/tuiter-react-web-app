@@ -10,7 +10,104 @@
 
 .column {
     display: flex;
-    align-items: center;
-    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
+
+.icon {
+    font-size: 2em;
+    color: brown;
+    align-self: flex-start;
+}
+
+.icon2 {
+    font-size: 2em;
+    color: green;
+    align-self: flex-start;
+}
+
+
+.tuit-title {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+
+.icon-flag {
+    color: brown;
+}
+
+.icon-check {
+    font-size: 1em;
+    color: blue;
+}
+
+.tuit-text {
+    margin-bottom: 10px;
+}
+
+.at-text {
+    font-size: small;
+    font-weight: normal;
+    color: rgb(133, 132, 132);
+}
+
+.date {
+    font-size: small;
+    font-weight: normal;
+    color: rgb(133, 132, 132);
+}
+
+.tuit-description {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.card-image {
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-text {
+    height: 20%;
+    background-color: #fffefe;
+    padding: 10px;
+}
+
+.card-text-1{
+    font-size: small;
+    font-weight: normal;
+    color: rgb(133, 132, 132);
+}
+
+.card-text-2 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.card-text-3 {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+
+.tuit-icons {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(133, 132, 132);
+    font-size: medium;
+    font-weight: bold;
+}
