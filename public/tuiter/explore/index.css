@@ -123,3 +123,34 @@
     color: rgb(163, 163, 163);
     margin-bottom: 3px;
   }
+
+
+.container {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+.list-group {
+    margin-bottom: 10px !important;
+}
+
+.list-group-item active {
+    color: white;
+}
+
+.btn{
+    width: 80%;
+    margin-left: 25px;
+}
+
+.form-control {
+    padding: 5px;
+}
+
+.third-column {
+    background-color: black;
+}
