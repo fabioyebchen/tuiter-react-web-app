@@ -9,13 +9,21 @@ function JavaScript() {
   console.log("Hello World!");
   return (
     <div>
-      <h1>JavaScript</h1><br/>
-      <VariablesAndConstants /><br/>
-      <VariableTypes/ ><br/>
-      <BooleanVariables/ ><br/>
-      <IfElse/ ><br/>
-      <TernaryOperator/ ><br/>
-      <WorkingWithFunctions/ ><br/>
+      <br />
+      <h2>JavaScript</h2>
+      <br />
+      <VariablesAndConstants />
+      <br />
+      <VariableTypes />
+      <br />
+      <BooleanVariables />
+      <br />
+      <IfElse />
+      <br />
+      <TernaryOperator />
+      <br />
+      <WorkingWithFunctions />
+      <br />
     </div>
   );
 }
