@@ -1,0 +1,10 @@
+#Push Code
+git add .
+git commit -m "Commit Message"
+git push origin <branch_name>
+
+#Create branch and push to remote
+git checkout -b <branch_name>
+git add .
+git commit -m "Your commit message here"
+git push origin <branch_name>
