@@ -1,8 +1,17 @@
 import React from "react";
-import { FaCheckCircle, FaComment, FaHeart    } from "react-icons/fa";
+import { FaCheckCircle, FaComment, FaHeart } from "react-icons/fa";
 import { IoMdText } from "react-icons/io";
+import { IoCloudUpload } from "react-icons/io5";
+import { useDispatch } from "react-redux";
+import {deleteTuit} from "../reducers/tuits-reducer";
+import "./index.css";
+
 
 const TuitItem = ({ tuit }) => {
+  const dispatch = useDispatch();
+  const deleteTuitHandler = (id) => {
+    dispatch(deleteTuit(id));
+  };
 
   return (
     <li className="list-group-item">
@@ -17,6 +26,11 @@ const TuitItem = ({ tuit }) => {
         </div>
         <div className="col-10">
           <div>
+            <i
+              className="bi bi-x-lg float-end x-icon"
+              onClick={() => deleteTuitHandler(tuit._id)}
+            >x</i>
+
             <b>{tuit.userName}</b> <FaCheckCircle size={15} color="#1DA1F2" />{" "}
             {tuit.handle} . {tuit.time}
           </div>
@@ -33,7 +47,7 @@ const TuitItem = ({ tuit }) => {
                   stroke: "black",
                 }}
               />
-               <span> {tuit.replies}</span>
+              <span> {tuit.replies}</span>
             </div>
 
             <div className="col-2">
@@ -45,11 +59,11 @@ const TuitItem = ({ tuit }) => {
                   stroke: "black",
                 }}
               />
-               <span> {tuit.retuits}</span>
+              <span> {tuit.retuits}</span>
             </div>
 
             <div className="col-2">
-              <FaHeart 
+              <FaHeart
                 size={15}
                 style={{
                   strokeWidth: tuit.liked ? 5 : 50,
@@ -57,9 +71,19 @@ const TuitItem = ({ tuit }) => {
                   stroke: "black",
                 }}
               />
-               <span> {tuit.likes}</span>
+              <span> {tuit.likes}</span>
             </div>
-            <div className="col-2"> col 4</div>
+
+            <div className="col-2">
+              <IoCloudUpload
+                size={15}
+                style={{
+                  strokeWidth: 30,
+                  fill: "transparent",
+                  stroke: "black",
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
