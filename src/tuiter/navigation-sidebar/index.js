@@ -12,7 +12,6 @@ const NavigationSidebar = () => {
     "messages",
     "bookmarks",
     "lists",
-    "profile",
     "more",
   ];
   const { currentUser } = useSelector((state) => state.user);

@@ -28,6 +28,7 @@ const WhatsHappening = () => {
     
     const newTuit = {
       tuit: whatsHappening,
+      title: "NASA is sending humans to an asteroid: SpaceX will get them there",
       ...templateTuit,
     };
 
